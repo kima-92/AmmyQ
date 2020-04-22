@@ -3,7 +3,7 @@
     <entity name="Character" representedClassName="Character" syncable="YES" codeGenerationType="class">
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
-        <attribute name="quotes" optional="YES" attributeType="String"/>
+        <attribute name="quotes" optional="YES" attributeType="Transformable" customClassName="[String : String]"/>
     </entity>
     <elements>
         <element name="Character" positionX="-63" positionY="-18" width="128" height="88"/>

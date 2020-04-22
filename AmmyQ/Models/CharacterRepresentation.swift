@@ -12,5 +12,5 @@ struct CharacterRepresentation: Codable {
     
     var name: String
     var id: String
-    var quotes: String
+    var quotes: [String:String]
 }
