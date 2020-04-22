@@ -13,6 +13,8 @@
 		FA7F4DD6244FB6130095D71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7F4DD5244FB6130095D71D /* Assets.xcassets */; };
 		FA7F4DD9244FB6130095D71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7F4DD7244FB6130095D71D /* LaunchScreen.storyboard */; };
 		FA7F4DE4244FBEBB0095D71D /* AmmyQ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA7F4DE2244FBEBB0095D71D /* AmmyQ.xcdatamodeld */; };
+		FA7F4DE6244FC1980095D71D /* Character+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F4DE5244FC1980095D71D /* Character+Convenience.swift */; };
+		FA7F4DE8244FC2130095D71D /* CharacterRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F4DE7244FC2130095D71D /* CharacterRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FA7F4DD8244FB6130095D71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA7F4DDA244FB6130095D71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA7F4DE3244FBEBB0095D71D /* AmmyQ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmmyQ.xcdatamodel; sourceTree = "<group>"; };
+		FA7F4DE5244FC1980095D71D /* Character+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Convenience.swift"; sourceTree = "<group>"; };
+		FA7F4DE7244FC2130095D71D /* CharacterRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				FA7F4DE2244FBEBB0095D71D /* AmmyQ.xcdatamodeld */,
+				FA7F4DE5244FC1980095D71D /* Character+Convenience.swift */,
+				FA7F4DE7244FC2130095D71D /* CharacterRepresentation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -157,6 +163,8 @@
 				FA7F4DCD244FB6110095D71D /* AppDelegate.swift in Sources */,
 				FA7F4DCF244FB6110095D71D /* SceneDelegate.swift in Sources */,
 				FA7F4DE4244FBEBB0095D71D /* AmmyQ.xcdatamodeld in Sources */,
+				FA7F4DE8244FC2130095D71D /* CharacterRepresentation.swift in Sources */,
+				FA7F4DE6244FC1980095D71D /* Character+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
